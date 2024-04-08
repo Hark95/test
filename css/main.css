@@ -1,0 +1,43 @@
+/* universal reset */
+*,
+*:before,
+*:after {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#FlexGallery{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    max-width: 800px;
+    margin:0 auto;
+
+
+}
+
+body{
+    background-color: lightblue;
+    font-family: sans-serif;
+}
+#FlexGallery div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+body main h1 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+
+
